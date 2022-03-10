@@ -1,1 +1,72 @@
-init
+body {
+  line-height: 1;
+}
+/* header */
+.header {
+  /* display: flex; */
+  max-height: 11%;
+  max-width: 92%;
+  margin: 1% 4% 0;
+
+  /* margin: 0rem 4rem 0;
+  padding: 1rem 1rem 0.5rem; */
+
+  border-bottom: 0.01rem solid rgb(143, 116, 116);
+}
+.cont_logo {
+  margin-top: 1.8rem;
+}
+
+.logo {
+  width: 10rem;
+  height: 3rem;
+}
+.big_head {
+  font-size: 2rem;
+  display: inline-block;
+  /* margin-top: 2rem; */
+  color: aqua;
+  /* margin-top: 3rem; */
+}
+
+.well {
+  display: inline-block;
+  font-size: 1.5rem;
+  color: aqua;
+  /* margin-top: 1rem; */
+}
+.welcome {
+  margin-left: auto;
+}
+.cont_heading {
+  margin-left: 2rem;
+  display: flex;
+  flex-direction: column;
+}
+.user_photo {
+  display: inline-block;
+  height: 2.5rem;
+  width: 2.5rem;
+  margin-top: 2rem;
+}
+.block {
+  display: inline-block;
+  vertical-align: bottom;
+  /* margin-top: 3rem; */
+  /* font-size: medium; */
+}
+
+/* Below Header */
+.parent_box {
+  max-width: 92%;
+  /* max-height: 80vh; */
+  background-color: antiquewhite;
+  /* display: flex; */
+  margin: 1rem 4rem 0.5vw;
+}
+.left {
+  flex-basis: 20%;
+}
+.right {
+  flex-basis: 80%;
+}
